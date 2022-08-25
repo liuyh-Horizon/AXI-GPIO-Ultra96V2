@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/code/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/sim/Adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_tb

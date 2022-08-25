@@ -1,0 +1,16 @@
+21:40:11 INFO  : Registering command handlers for Vitis TCF services
+21:40:11 INFO  : Launching XSCT server: xsct -n  -interactive /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/temp_xsdb_launch_script.tcl
+21:40:12 INFO  : Platform repository initialization has completed.
+21:40:13 INFO  : XSCT server has started successfully.
+21:40:13 INFO  : Successfully done setting XSCT server connection channel  
+21:40:13 INFO  : plnx-install-location is set to ''
+21:40:13 INFO  : Successfully done setting workspace for the tool. 
+21:40:13 INFO  : Successfully done query RDI_DATADIR 
+21:40:57 INFO  : Result from executing command 'getProjects': AXI_GPIO_Adder_Platform
+21:40:57 INFO  : Result from executing command 'getPlatforms': 
+21:41:53 INFO  : Result from executing command 'getProjects': AXI_GPIO_Adder_Platform
+21:41:53 INFO  : Result from executing command 'getPlatforms': AXI_GPIO_Adder_Platform|/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/AXI_GPIO_Adder_Platform.xpfm
+23:03:29 INFO  : Checking for BSP changes to sync application flags for project 'AXI_GPIO_Adder_app'...
+23:04:33 INFO  : Checking for BSP changes to sync application flags for project 'AXI_GPIO_Adder_app'...
+23:04:47 INFO  : Checking for BSP changes to sync application flags for project 'AXI_GPIO_Adder_app'...
+23:05:19 INFO  : Checking for BSP changes to sync application flags for project 'AXI_GPIO_Adder_app'...

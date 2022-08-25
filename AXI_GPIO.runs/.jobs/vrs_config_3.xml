@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="adder_bd_auto_ds_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_axi_gpio_0_2_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_axi_gpio_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_xbar_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_axi_gpio_0_1_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_axi_gpio_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="adder_bd_axi_gpio_0_2_synth_1"/>
+	</Run>
+	<Run Id="adder_bd_rst_ps8_0_100M_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_rst_ps8_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_auto_pc_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_axi_gpio_0_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_bd_Adder_0_0_synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/adder_bd_Adder_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="adder_bd_auto_ds_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_2_synth_1"/>
+		<Parent Id="adder_bd_xbar_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_1_synth_1"/>
+		<Parent Id="adder_bd_rst_ps8_0_100M_0_synth_1"/>
+		<Parent Id="adder_bd_auto_pc_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_0_synth_1"/>
+		<Parent Id="adder_bd_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="adder_bd_Adder_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="adder_bd_auto_ds_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_2_synth_1"/>
+		<Parent Id="adder_bd_xbar_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_1_synth_1"/>
+		<Parent Id="adder_bd_rst_ps8_0_100M_0_synth_1"/>
+		<Parent Id="adder_bd_auto_pc_0_synth_1"/>
+		<Parent Id="adder_bd_axi_gpio_0_0_synth_1"/>
+		<Parent Id="adder_bd_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="adder_bd_Adder_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

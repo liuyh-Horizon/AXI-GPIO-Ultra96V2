@@ -1,0 +1,10 @@
+23:04:47 **** Incremental Build of configuration Debug for project AXI_GPIO_Adder_app_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/AXI_GPIO_Adder_Platform.xpfm -domains standalone_domain -bifpath /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/AXI_GPIO_Adder_Platform.xpfm --sys_config AXI_GPIO_Adder_Platform --bif /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app_system/Debug/system.bif --bitstream /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app/_ide/bitstream/adder_bd_wrapper.bit --elf /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app/Debug/AXI_GPIO_Adder_app.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app/_ide/bitstream/adder_bd_wrapper.bit
+Running /usr/software/Xilinx/Vitis/2020.2/bin/bootgen -arch zynqmp -image /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/app/AXI_GPIO_Adder_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+23:04:52 Build Finished (took 5s.227ms)
+
