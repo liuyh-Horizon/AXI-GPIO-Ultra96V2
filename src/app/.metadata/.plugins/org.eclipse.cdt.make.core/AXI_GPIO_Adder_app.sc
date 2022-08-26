@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-    <instance id="xilinx.gnu.arm.a53.exe.debug.1846170513;xilinx.gnu.arm.a53.exe.debug.1846170513.">
+    <instance id="xilinx.gnu.arm.a53.exe.debug.1103773734;xilinx.gnu.arm.a53.exe.debug.1103773734.">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>
@@ -359,11 +359,11 @@
             <definedSymbol symbol="__ELF__=1"/>
         </collector>
     </instance>
-    <instance id="xilinx.gnu.arm.a53.exe.release.1294746890;xilinx.gnu.arm.a53.exe.release.1294746890.">
+    <instance id="xilinx.gnu.arm.a53.exe.release.152946478;xilinx.gnu.arm.a53.exe.release.152946478.">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>
@@ -718,11 +718,11 @@
             <definedSymbol symbol="__ELF__=1"/>
         </collector>
     </instance>
-    <instance id="xilinx.gnu.arm.a53.exe.debug.1846170513;xilinx.gnu.arm.a53.exe.debug.1846170513.;xilinx.gnu.arm.a53.c.toolchain.compiler.debug.1930788951;xilinx.gnu.arm.a53.c.compiler.input.679669977">
+    <instance id="xilinx.gnu.arm.a53.exe.debug.1103773734;xilinx.gnu.arm.a53.exe.debug.1103773734.;xilinx.gnu.arm.a53.c.toolchain.compiler.debug.1005741964;xilinx.gnu.arm.a53.c.compiler.input.1391408266">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
-            <includePath path="/usr/software/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/../../lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/9.2.0/include-fixed"/>
+            <includePath path="/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin/../aarch64-xilinx-elf/usr/include/"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>

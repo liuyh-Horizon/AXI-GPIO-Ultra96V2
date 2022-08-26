@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="scw_hwspec" value="/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO"/>
+	<item key="scw_hwspec" value="/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2"/>
 </section>

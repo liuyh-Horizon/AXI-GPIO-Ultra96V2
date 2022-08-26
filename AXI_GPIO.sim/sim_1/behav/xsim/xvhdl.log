@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.gen/sources_1/ip/signed_adder/sim/signed_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signed_adder'

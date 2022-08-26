@@ -62,10 +62,10 @@ int main()
     int32_t out;
 
     XGpio_Config *GPIO_Config;
-	XGpio in_0_IO, in_1_IO, out_IOs_IO;
+	XGpio in_0_IO, in_1_IO, out_IO;
 
     GPIO_Config = XGpio_LookupConfig(XPAR_AXI_GPIO_0_DEVICE_ID);
-	XGpio_CfgInitialize(&out_IOs_IO, GPIO_Config, GPIO_Config->BaseAddress);
+	XGpio_CfgInitialize(&out_IO, GPIO_Config, GPIO_Config->BaseAddress);
 
 	GPIO_Config = XGpio_LookupConfig(XPAR_AXI_GPIO_1_DEVICE_ID);
 	XGpio_CfgInitialize(&in_0_IO, GPIO_Config, GPIO_Config->BaseAddress);
@@ -75,7 +75,7 @@ int main()
 
 	XGpio_SetDataDirection(&in_0_IO, 1, 0);
 	XGpio_SetDataDirection(&in_1_IO, 1, 0);
-	XGpio_SetDataDirection(&out, 1, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&out_IO, 1, 0xFFFFFFFF);
 
 	for(in_0=-10; in_0<10; in_0++)
 	{
@@ -83,8 +83,8 @@ int main()
 		{
 			XGpio_DiscreteWrite(&in_0_IO, 1, in_0);
 			XGpio_DiscreteWrite(&in_1_IO, 1, in_1);
-			out = XGpio_DiscreteRead(&out_IOs_IO, 1);
-			xil_printf("%0x + %0x = %0x;\n",in_0, in_1, out);
+			out = XGpio_DiscreteRead(&out_IO, 1);
+			xil_printf("%0d + %0d = %0d;\n",in_0, in_1, out);
 		}
 	}
 

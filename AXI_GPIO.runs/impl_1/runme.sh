@@ -7,9 +7,9 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/usr/software/Xilinx/Vitis/2020.2/bin:/usr/software/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/usr/software/Xilinx/Vivado/2020.2/bin
+  PATH=/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/bin:/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/bin
 else
-  PATH=/usr/software/Xilinx/Vitis/2020.2/bin:/usr/software/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/usr/software/Xilinx/Vivado/2020.2/bin:$PATH
+  PATH=/home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/bin:/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/impl_1'
+HD_PWD='/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

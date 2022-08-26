@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date             : Thu Aug 25 21:37:53 2022
-| Host             : Yuhao running 64-bit Ubuntu 22.04.1 LTS
+| Date             : Fri Aug 26 11:40:44 2022
+| Host             : atlas running 64-bit Ubuntu 20.04.1 LTS
 | Command          : report_power -file adder_bd_wrapper_power_routed.rpt -pb adder_bd_wrapper_power_summary_routed.pb -rpx adder_bd_wrapper_power_routed.rpx
 | Design           : adder_bd_wrapper
 | Device           : xczu3eg-sbva484-1-i

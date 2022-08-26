@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/code/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/sim/Adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.gen/sources_1/ip/signed_adder/sim/signed_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signed_adder'

@@ -1,5 +1,5 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  \
+verilog xil_defaultlib  --include "../../../../src/bd/adder_bd/ipshared/ec67/hdl" --include "../../../../src/bd/adder_bd/ipshared/da1e/hdl" --include "/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../src/code/Adder.v" \
 "../../../../src/sim/Adder_tb.v" \
 

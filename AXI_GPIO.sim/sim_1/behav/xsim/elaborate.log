@@ -1,6 +1,6 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: /usr/software/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 9a13a7c0bdab4e85bf7c7992b933e40b --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Adder_tb_behav xil_defaultlib.Adder_tb xil_defaultlib.glbl -log elaborate.log 
+Running: /home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 9a13a7c0bdab4e85bf7c7992b933e40b --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Adder_tb_behav xil_defaultlib.Adder_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer

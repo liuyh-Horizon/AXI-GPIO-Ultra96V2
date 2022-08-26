@@ -1,5 +1,27 @@
 Nothing to build in platform 'AXI_GPIO_Adder_Platform'
 
-23:05:19 **** Incremental Build of configuration Debug for project AXI_GPIO_Adder_app ****
+11:58:10 **** Incremental Build of configuration Debug for project AXI_GPIO_Adder_app ****
 make all 
-make: 对“all”无需做任何事。
+Building file: ../src/AXI_GPIO_Adder_exe.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AXI_GPIO_Adder_exe.o" -I/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/sw/AXI_GPIO_Adder_Platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/AXI_GPIO_Adder_exe.d" -MT"src/AXI_GPIO_Adder_exe.o" -o "src/AXI_GPIO_Adder_exe.o" "../src/AXI_GPIO_Adder_exe.c"
+Finished building: ../src/AXI_GPIO_Adder_exe.c
+ 
+Building target: AXI_GPIO_Adder_app.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/sw/AXI_GPIO_Adder_Platform/standalone_domain/bsplib/lib -o "AXI_GPIO_Adder_app.elf"  ./src/AXI_GPIO_Adder_exe.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: AXI_GPIO_Adder_app.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size AXI_GPIO_Adder_app.elf  |tee "AXI_GPIO_Adder_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34404	   2128	  20788	  57320	   dfe8	AXI_GPIO_Adder_app.elf
+Finished building: AXI_GPIO_Adder_app.elf.size
+ 
+11:58:12 **** Incremental Build of configuration Debug for project AXI_GPIO_Adder_app_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/AXI_GPIO_Adder_Platform.xpfm -domains standalone_domain -bifpath /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_Platform/export/AXI_GPIO_Adder_Platform/AXI_GPIO_Adder_Platform.xpfm --sys_config AXI_GPIO_Adder_Platform --bif /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app_system/Debug/system.bif --bitstream /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app/_ide/bitstream/adder_bd_wrapper.bit --elf /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app/Debug/AXI_GPIO_Adder_app.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app/_ide/bitstream/adder_bd_wrapper.bit
+Running /home/yuhaoliu/Tools/Hardware/Xilinx/Vitis/2020.2/bin/bootgen -arch zynqmp -image /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/app/AXI_GPIO_Adder_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

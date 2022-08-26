@@ -4,11 +4,4 @@
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
-	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
-		<item key="DIALOG_X_ORIGIN" value="1634"/>
-		<item key="DIALOG_Y_ORIGIN" value="521"/>
-		<item key="DIALOG_WIDTH" value="578"/>
-		<item key="DIALOG_HEIGHT" value="755"/>
-		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
-	</section>
 </section>

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/impl_1/adder_bd_wrapper.tcl"
+  variable script "/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/impl_1/adder_bd_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -115,7 +115,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {HDL-1065} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -123,27 +122,27 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 6
+  set_param chipscope.maxJobs 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xczu3eg-sbva484-1-i
-  set_property board_part_repo_paths {/home/yuhao_liu/.Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store} [current_project]
+  set_property board_part_repo_paths {/home/yuhaoliu/.Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store} [current_project]
   set_property board_part avnet.com:ultra96v2:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.cache/wt [current_project]
-  set_property parent.project_path /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.xpr [current_project]
-  set_property ip_output_repo /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.cache/wt [current_project]
+  set_property parent.project_path /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.xpr [current_project]
+  set_property ip_output_repo /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/adder_bd_wrapper.dcp
+  add_files -quiet /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/adder_bd_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  read_ip -quiet /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.srcs/sources_1/ip/signed_adder/signed_adder.xci
-  add_files /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/adder_bd.bd
+  read_ip -quiet /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.srcs/sources_1/ip/signed_adder/signed_adder.xci
+  add_files /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/adder_bd.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
 OPTRACE "read constraints: implementation" END { }

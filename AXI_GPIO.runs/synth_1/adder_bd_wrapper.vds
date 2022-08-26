@@ -2,17 +2,18 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Aug 25 21:36:23 2022
-# Process ID: 12941
-# Current directory: /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1
+# Start of session at: Fri Aug 26 11:37:32 2022
+# Process ID: 9822
+# Current directory: /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1
 # Command line: vivado -log adder_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder_bd_wrapper.tcl
-# Log file: /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/adder_bd_wrapper.vds
-# Journal file: /home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/vivado.jou
+# Log file: /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/adder_bd_wrapper.vds
+# Journal file: /home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source adder_bd_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/software/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/yuhaoliu/Tools/Hardware/Xilinx/Vivado/2020.2/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2427.125 ; gain = 8.012 ; free physical = 6655 ; free virtual = 28070
 Command: synth_design -top adder_bd_wrapper -part xczu3eg-sbva484-1-i
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
@@ -20,99 +21,99 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg
 INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13001
+INFO: [Synth 8-7075] Helper process launched with PID 9937
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2737.719 ; gain = 29.875 ; free physical = 54237 ; free virtual = 180272
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2738.422 ; gain = 29.832 ; free physical = 4787 ; free virtual = 26335
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_wrapper' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/hdl/adder_bd_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:13]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_Adder_0_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_Adder_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_Adder_0_0' (1#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_Adder_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_0' (2#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_1' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_1' (3#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_2' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_2' (4#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_axi_gpio_0_2_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_ps8_0_axi_periph_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:328]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_OV2NKR' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:996]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_OV2NKR' (5#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:996]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1EPT2RE' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1128]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1EPT2RE' (6#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1128]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_PM2JIW' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1260]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_PM2JIW' (7#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1260]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_18KMZRT' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1392]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_auto_ds_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_auto_ds_0' (8#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_auto_pc_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_auto_pc_0' (9#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_18KMZRT' (10#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:1392]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_xbar_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_xbar_0' (11#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_xbar_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'adder_bd_xbar_0' is unconnected for instance 'xbar' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:955]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'adder_bd_xbar_0' is unconnected for instance 'xbar' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:955]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'adder_bd_xbar_0' has 40 connections declared, but only 38 given [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:955]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_ps8_0_axi_periph_0' (12#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:328]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_rst_ps8_0_100M_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_rst_ps8_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_rst_ps8_0_100M_0' (13#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_rst_ps8_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:277]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:277]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:277]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:277]
-WARNING: [Synth 8-7023] instance 'rst_ps8_0_100M' of module 'adder_bd_rst_ps8_0_100M_0' has 10 connections declared, but only 6 given [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:277]
-INFO: [Synth 8-6157] synthesizing module 'adder_bd_zynq_ultra_ps_e_0_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_zynq_ultra_ps_e_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_zynq_ultra_ps_e_0_0' (14#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/.Xil/Vivado-12941-Yuhao/realtime/adder_bd_zynq_ultra_ps_e_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'adder_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:284]
-WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'adder_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:284]
-WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'adder_bd_zynq_ultra_ps_e_0_0' has 43 connections declared, but only 41 given [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:284]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd' (15#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/synth/adder_bd.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'adder_bd_wrapper' (16#1) [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/hdl/adder_bd_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_wrapper' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/hdl/adder_bd_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:13]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_Adder_0_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_Adder_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_Adder_0_0' (1#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_Adder_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_0' (2#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_1' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_1' (3#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_axi_gpio_0_2' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_axi_gpio_0_2' (4#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_axi_gpio_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_ps8_0_axi_periph_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:328]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_OV2NKR' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:996]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_OV2NKR' (5#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:996]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1EPT2RE' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1128]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1EPT2RE' (6#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1128]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_PM2JIW' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1260]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_PM2JIW' (7#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1260]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_18KMZRT' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1392]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_auto_ds_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_auto_ds_0' (8#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_auto_pc_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_auto_pc_0' (9#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_18KMZRT' (10#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:1392]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_xbar_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_xbar_0' (11#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_xbar_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'adder_bd_xbar_0' is unconnected for instance 'xbar' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:955]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'adder_bd_xbar_0' is unconnected for instance 'xbar' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:955]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'adder_bd_xbar_0' has 40 connections declared, but only 38 given [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:955]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_ps8_0_axi_periph_0' (12#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:328]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_rst_ps8_0_100M_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_rst_ps8_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_rst_ps8_0_100M_0' (13#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_rst_ps8_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:277]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:277]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:277]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'adder_bd_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:277]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_100M' of module 'adder_bd_rst_ps8_0_100M_0' has 10 connections declared, but only 6 given [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:277]
+INFO: [Synth 8-6157] synthesizing module 'adder_bd_zynq_ultra_ps_e_0_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_zynq_ultra_ps_e_0_0' (14#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/.Xil/Vivado-9822-atlas/realtime/adder_bd_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'adder_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:284]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'adder_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:284]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'adder_bd_zynq_ultra_ps_e_0_0' has 43 connections declared, but only 41 given [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:284]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd' (15#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/synth/adder_bd.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'adder_bd_wrapper' (16#1) [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/hdl/adder_bd_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2782.625 ; gain = 74.781 ; free physical = 54267 ; free virtual = 180303
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2784.328 ; gain = 75.738 ; free physical = 5523 ; free virtual = 27074
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2799.469 ; gain = 91.625 ; free physical = 54956 ; free virtual = 180992
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2804.172 ; gain = 95.582 ; free physical = 5570 ; free virtual = 27122
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2799.469 ; gain = 91.625 ; free physical = 54956 ; free virtual = 180992
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2804.172 ; gain = 95.582 ; free physical = 5570 ; free virtual = 27122
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2799.469 ; gain = 0.000 ; free physical = 54962 ; free virtual = 180998
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2804.172 ; gain = 0.000 ; free physical = 5562 ; free virtual = 27115
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'adder_bd_i/zynq_ultra_ps_e_0'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'adder_bd_i/zynq_ultra_ps_e_0'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0_in_context.xdc] for cell 'adder_bd_i/axi_gpio_0'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0_in_context.xdc] for cell 'adder_bd_i/axi_gpio_0'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_1'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_1'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_2'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_2'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_xbar_0/adder_bd_xbar_0/adder_bd_xbar_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/xbar'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_xbar_0/adder_bd_xbar_0/adder_bd_xbar_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/xbar'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_auto_ds_0/adder_bd_auto_ds_0/adder_bd_auto_ds_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_ds'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_auto_ds_0/adder_bd_auto_ds_0/adder_bd_auto_ds_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_ds'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_auto_pc_0/adder_bd_auto_pc_0/adder_bd_auto_pc_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_auto_pc_0/adder_bd_auto_pc_0/adder_bd_auto_pc_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0_in_context.xdc] for cell 'adder_bd_i/rst_ps8_0_100M'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0_in_context.xdc] for cell 'adder_bd_i/rst_ps8_0_100M'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_Adder_0_0/adder_bd_Adder_0_0/adder_bd_Adder_0_0_in_context.xdc] for cell 'adder_bd_i/Adder_0'
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/src/bd/adder_bd/ip/adder_bd_Adder_0_0/adder_bd_Adder_0_0/adder_bd_Adder_0_0_in_context.xdc] for cell 'adder_bd_i/Adder_0'
-Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'adder_bd_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0/adder_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'adder_bd_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0_in_context.xdc] for cell 'adder_bd_i/axi_gpio_0'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0/adder_bd_axi_gpio_0_0_in_context.xdc] for cell 'adder_bd_i/axi_gpio_0'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_1'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_1/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_1'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_2'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2/adder_bd_axi_gpio_0_2_in_context.xdc] for cell 'adder_bd_i/axi_gpio_2'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_xbar_0/adder_bd_xbar_0/adder_bd_xbar_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_xbar_0/adder_bd_xbar_0/adder_bd_xbar_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_auto_ds_0/adder_bd_auto_ds_0/adder_bd_auto_ds_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_auto_ds_0/adder_bd_auto_ds_0/adder_bd_auto_ds_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_auto_pc_0/adder_bd_auto_pc_0/adder_bd_auto_pc_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_auto_pc_0/adder_bd_auto_pc_0/adder_bd_auto_pc_0_in_context.xdc] for cell 'adder_bd_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0_in_context.xdc] for cell 'adder_bd_i/rst_ps8_0_100M'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0/adder_bd_rst_ps8_0_100M_0_in_context.xdc] for cell 'adder_bd_i/rst_ps8_0_100M'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_Adder_0_0/adder_bd_Adder_0_0/adder_bd_Adder_0_0_in_context.xdc] for cell 'adder_bd_i/Adder_0'
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/src/bd/adder_bd/ip/adder_bd_Adder_0_0/adder_bd_Adder_0_0/adder_bd_Adder_0_0_in_context.xdc] for cell 'adder_bd_i/Adder_0'
+Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2852.266 ; gain = 0.000 ; free physical = 54902 ; free virtual = 180946
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2846.996 ; gain = 0.000 ; free physical = 5491 ; free virtual = 27046
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2852.266 ; gain = 0.000 ; free physical = 54902 ; free virtual = 180944
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2846.996 ; gain = 0.000 ; free physical = 5491 ; free virtual = 27047
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2852.266 ; gain = 144.422 ; free physical = 54927 ; free virtual = 180982
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2846.996 ; gain = 138.406 ; free physical = 5563 ; free virtual = 27118
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -120,7 +121,7 @@ Start Loading Part and Timing Information
 Loading part: xczu3eg-sbva484-1-i
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2852.266 ; gain = 144.422 ; free physical = 54927 ; free virtual = 180982
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2846.996 ; gain = 138.406 ; free physical = 5563 ; free virtual = 27118
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -137,10 +138,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for adder_bd_i/ps8_0_axi_periph. (con
 Applied set_property KEEP_HIERARCHY = SOFT for adder_bd_i/rst_ps8_0_100M. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for adder_bd_i/Adder_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2852.266 ; gain = 144.422 ; free physical = 54927 ; free virtual = 180983
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2846.996 ; gain = 138.406 ; free physical = 5566 ; free virtual = 27122
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2852.266 ; gain = 144.422 ; free physical = 54928 ; free virtual = 180986
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2846.996 ; gain = 138.406 ; free physical = 5565 ; free virtual = 27121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -162,25 +163,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2852.266 ; gain = 144.422 ; free physical = 54901 ; free virtual = 180968
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2846.996 ; gain = 138.406 ; free physical = 5549 ; free virtual = 27112
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 3305.617 ; gain = 597.773 ; free physical = 54276 ; free virtual = 180355
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 3332.395 ; gain = 623.805 ; free physical = 4978 ; free virtual = 26560
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 3305.617 ; gain = 597.773 ; free physical = 54276 ; free virtual = 180355
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 3332.395 ; gain = 623.805 ; free physical = 4978 ; free virtual = 26560
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 3324.648 ; gain = 616.805 ; free physical = 54271 ; free virtual = 180349
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 3351.426 ; gain = 642.836 ; free physical = 4975 ; free virtual = 26558
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -198,37 +199,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -262,23 +263,23 @@ Report Cell Usage:
 |9     |adder_bd_zynq_ultra_ps_e_0 |     1|
 +------+---------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.586 ; gain = 622.742 ; free physical = 54277 ; free virtual = 180356
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.363 ; gain = 648.773 ; free physical = 4960 ; free virtual = 26542
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 3330.586 ; gain = 569.945 ; free physical = 54320 ; free virtual = 180399
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 3330.594 ; gain = 622.742 ; free physical = 54320 ; free virtual = 180399
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 3357.363 ; gain = 605.949 ; free physical = 5000 ; free virtual = 26583
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3357.371 ; gain = 648.773 ; free physical = 5000 ; free virtual = 26584
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3330.594 ; gain = 0.000 ; free physical = 54381 ; free virtual = 180459
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3357.371 ; gain = 0.000 ; free physical = 4992 ; free virtual = 26579
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3355.367 ; gain = 0.000 ; free physical = 54346 ; free virtual = 180424
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3381.113 ; gain = 0.000 ; free physical = 5024 ; free virtual = 26611
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 48 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 3369.305 ; gain = 814.637 ; free physical = 54477 ; free virtual = 180555
-INFO: [Common 17-1381] The checkpoint '/home/yuhao_liu/Projects/Hardware/FPGA/Ultra96V2/AXI-GPIO/AXI_GPIO.runs/synth_1/adder_bd_wrapper.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:55 . Memory (MB): peak = 3395.051 ; gain = 967.926 ; free physical = 5155 ; free virtual = 26741
+INFO: [Common 17-1381] The checkpoint '/home/yuhaoliu/Projects/Verilog/AXI-GPIO-Ultra96V2/AXI_GPIO.runs/synth_1/adder_bd_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file adder_bd_wrapper_utilization_synth.rpt -pb adder_bd_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Aug 25 21:36:56 2022...
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 26 11:38:47 2022...
